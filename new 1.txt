@@ -12,6 +12,9 @@ Class SeleniumEx
 		WebElement element = driver.findElement(pathname);
 		element.click();
 		//Working really hard
+		
+		// Frame Button
+		//Table Alert
 	
 	}
 }
