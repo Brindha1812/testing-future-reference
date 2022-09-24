@@ -8,7 +8,10 @@ Class SeleniumEx
 		driver = new ChromeDriver();
 		driver.get("http://testleaf.herokuapp.com/pages/Button.html");
 		
-		
+		By pathName = By.id("Home");
+		WebElement element = driver.findElement(pathname);
+		element.click();
+		//Working really hard
 	
 	}
 }
